@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
+    <title>Yuu Igarashi</title>
+  </head>
+
+  <body class="green lighten-5">
+    <header>
+      <nav class="top green">
+        <div class="container">
+          <div class="nav-wrapper">
+            <span class="page-title">Yuu Igarashi</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div id="aboutItems" class="row about">
+          <div class="col s12">
+            <h4 class="green-text text-darken-4">About</h4>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Profile</span>
+                <ul class="icon-list">
+                  <li><i class="fa fa-user fa-lg"></i><span class="icon-side-text">五十嵐 雄 / @yu-i9</span></li>
+                  <li><i class="fa fa-birthday-cake fa-lg"></i><span class="icon-side-text">1994年 9月 9日 (<span id="age"></span>才)</span></li>
+                  <li><i class="fa fa-map-marker fa-lg"></i><span class="icon-side-text">京都市左京区</span></li>
+                  <li><i class="fa fa-envelope fa-lg"></i><span class="icon-side-text">yuu.igarashi.9(at)gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Affiliation</span>
+                <ul class="icon-list">
+                  <li><i class="fa fa-university fa-lg"></i><span class="icon-side-text">京都大学工学部情報学科</span></li>
+                  <li><i class="fa fa-users fa-lg"></i><span class="icon-side-text"><a href="https://camph.net">CAMPHOR-</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Skills</span><br>
+                <span class="chip">Haskell</span>
+                <span class="chip">Python</span>
+                <span class="chip">Django</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Interest</span>
+                <h6>Always</h6>
+                <ul class="hyphen">
+                  <li>静的型付き言語</li>
+                  <li>型理論</li>
+                </ul>
+                <h6>Recently</h6>
+                <ul class="hyphen">
+                  <li>Webアプリ開発</li>
+                  <li>JavaScript</li>
+                  <li>Qualified Type</li>
+                  <li>漸進的型付け (Gradual Typing)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Links</span>
+                <ul class="hyphen">
+                  <li><a href="https://github.com/yu-i9">GitHub(@yu-i9)</a></li>
+                  <li><a href="https://twitter.com/yu_i9">Twitter(@yu_i9)</a></li>
+                  <li><a href="http://yu-i9.hatenablog.com/">はてなブログ</a></li>
+                  <li><a href="https://www.wantedly.com/users/17821906">Wantedly</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="products" class="row">
+          <div class="col s12">
+            <h4 class="green-text text-darken-4">Products</h4>
+            <div class="card">
+              <div class="card-image">
+                <img src="images/hoogleSwitcher.png">
+              </div>
+              <div class="card-content">
+                <a href="https://github.com/yu-i9/HoogleSwitcher" class="card-title">HoogleSwitcher</a>
+                <p>Hoogle検索を簡単にするChrome拡張です．Hackageや自分で登録したStackageのスナップショットを切り替えながらHoogle検索できます．</p>
+              </div>
+              <div class="card-action">
+                <span class="chip">JavaScript</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="images/thih.png">
+            </div>
+            <div class="card-content">
+              <a href="https://github.com/yu-i9/thih" class="card-title">Thih</a>
+              <p><a href="https://web.cecs.pdx.edu/~mpj/thih/thih.pdf">Typing Haskell in Haskell</a>の実装をGHCでコンパイルできるように修正したプロジェクトです．Stackageのlts-3.17でコンパイルできます．</p>
+            </div>
+            <div class="card-action">
+              <span class="chip">Haskell</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="images/systemf.png">
+            </div>
+            <div class="card-content">
+              <a href="https://github.com/yu-i9/SystemF" class="card-title">SystemF</a>
+              <p>多相ラムダ計算の基本的な体系である System F のインタープリタです．パーサー部分は Haskell で，それ以外の部分を Python で実装しています．</p>
+            </div>
+            <div class="card-action">
+              <span class="chip">Haskell</span>
+              <span class="chip">Python</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="images/hasc.png">
+            </div>
+            <div class="card-content">
+              <a href="https://github.com/yu-i9/HaSC" class="card-title">HaSC</a>
+              <p>大学の演習の一環として実装したHaskell製のSmallC(Cのサブセット言語)コンパイラです．ターゲット言語はMIPSとNASMです．</p>
+            </div>
+            <div class="card-action">
+              <span class="chip">Haskell</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="images/hegex.png">
+            </div>
+            <div class="card-content">
+              <a href="https://github.com/yu-i9/Hegex" class="card-title">Hegex</a>
+              <p>自身の学習のために制作したHaskell製の簡単な正規表現エンジンです．正規表現をオートマトンへ変換し，そのオートマトンに対する動作をシミュレートしています．</p>
+            </div>
+            <div class="card-action">
+              <span class="chip">Haskell</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/grid-a-licious.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+nav.top {
+    height: 130px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+nav.top span.page-title {
+    line-height: 130px;
+    font-size: 45px;
+}
+
+.about a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: underline;
+}
+
+.hyphen li:before {
+    content: "- ";
+}
+
+.icon-list li {
+    line-height: 35px;
+    list-style-type: none;
+}
+
+.icon-list i {
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-side-text {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.chip {
+    margin-bottom: 3px;
+}
