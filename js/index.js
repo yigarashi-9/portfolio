@@ -1,5 +1,5 @@
 $("#aboutItems").gridalicious({
-  width: 350,
+  width: 280,
   gutter: 12,
   selector: '.card'
 });

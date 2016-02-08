@@ -1,12 +1,35 @@
-nav.top {
-    height: 130px;
+.top {
+    height: 110px;
     box-shadow: none;
     margin-bottom: 15px;
 }
 
-nav.top span.page-title {
+.page-title {
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 30px;
+    }
+}
+
+.nav-wrapper {
     line-height: 130px;
-    font-size: 45px;
+}
+
+.icon {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .icon {
+        width: 45px;
+    }
 }
 
 .about a {
